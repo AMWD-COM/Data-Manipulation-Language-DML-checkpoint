@@ -1,7 +1,7 @@
 -- SQLite
 /**  -CREATE TABLE-*/
 /*'PRAGMA' specific commands to activate foreign keys */
-/* 
+
  PRAGMA foreign_keys = ON;
  
  CREATE TABLE IF NOT EXISTS products (
@@ -24,7 +24,7 @@
  FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
  FOREIGN KEY (product_id) REFERENCES products(product_id)
  );
- */
+
 /** ALTER TABLES */
 /** ADD category column to products*/
 ALTER TABLE
